@@ -2,7 +2,7 @@
   "name": "@vuthanh3298/zxing-wasm",
   "description": "An ES module wrapper of zxing-wasm-build",
   "private": false,
-  "version": "2.1.6",
+  "version": "2.1.7",
   "type": "module",
   "files": [
     "./dist"
@@ -82,10 +82,12 @@
   },
   "dependencies": {
     "@babel/core": "^7.23.2",
+    "@babel/plugin-syntax-import-meta": "^7.10.4",
     "@babel/preset-env": "^7.23.2",
     "@babel/runtime": "^7.23.2",
     "@rollup/plugin-babel": "^6.0.4",
     "@types/emscripten": "^1.39.7",
+    "babel-plugin-transform-import-meta": "^2.2.1",
     "core-js": "^3.33.0",
     "zustand": "^4.4.1"
   }
